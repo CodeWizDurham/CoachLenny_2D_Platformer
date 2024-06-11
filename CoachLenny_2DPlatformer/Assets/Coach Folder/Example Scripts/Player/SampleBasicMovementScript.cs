@@ -60,10 +60,10 @@ public class SampleBasicMovementScript : MonoBehaviour
         isGrounded = true;
 
         //if is touching an object with the ground tag then is grounded
-        //if (other.gameObject.tag == "ground")
-        //{
-        //    isGrounded = true;
-        //}
+        if (other.gameObject.tag == "ground")
+        {
+            isGrounded = true;
+        }
 
     }
 
@@ -74,10 +74,10 @@ public class SampleBasicMovementScript : MonoBehaviour
         isGrounded = false;
 
         //if is touching an object with the ground tag then is grounded
-        //if (other.gameObject.tag == "ground")
-        //{
-        //    isGrounded = false;
-        //}
+        if (other.gameObject.tag == "ground")
+        {
+            isGrounded = false;
+        }
     }
 }
 
