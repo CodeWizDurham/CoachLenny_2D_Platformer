@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Coach Folder/Example Scenes/Sample Scene 1.unity
+    guid: bdcd2dd2ebc59694a81a61bdef723187
+  - enabled: 1
+    path: Assets/Coach Folder/Example Scenes/Sample Scene 2.unity
+    guid: 80dfeebb60851504d929f0df256d7c72
+  - enabled: 1
+    path: Assets/Coach Folder/Example Scenes/Sample Win Scene 3.unity
+    guid: 3ed4269e08e306e43a1b11f9d3d68892
+  - enabled: 1
+    path: Assets/Coach Folder/Example Scenes/Sample Lose Scene 4.unity
+    guid: 6fffe21dba50ade4c92876b5ac9df9ca
+  m_configObjects: {}
